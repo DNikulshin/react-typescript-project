@@ -8,7 +8,7 @@ function App() {
     return (
         <>
             <Navigation/>
-            <div className="container w-screen h-screen mx-auto max-w-2xl pt-5">
+            <div className="container w-screen h-screen mx-auto max-w-2xl pt-5 p-2">
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
                     <Route path="/about" element={<AboutPage/>}/>
